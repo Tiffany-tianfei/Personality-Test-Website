@@ -1,0 +1,325 @@
+<html>
+
+<head>
+<title>人格类型 INFP </title>
+</head>
+
+<style>
+h1 {font-family:Pacifico; font-size:29px;}
+h  {font-family:黑体; font-size:33px; color:black}
+body{background-color:#F5FBFB;}
+
+.xuanfu {
+    background-color: #d7ece7; /* tiffany blue */
+    border: none;
+    padding: 4px 7px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    border-radius: 12px;*/
+}
+.dropbtn {
+    background-color: #81D8D0;
+    color: white;
+    padding: 15px;
+    font-size: 25px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+
+}
+
+.dropdown-content {
+    display: none;
+    position: relative;
+    background-color: #f0f0f0;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    font-size: 21px;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #81D8D0; 
+    color: white;}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropup:hover .dropbtn {
+    background-color: #3e8e41;
+}
+
+
+body{background-color: #fbfbfb;}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+    font-family:黑体;
+    font-size:20px;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 25px 25px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #81D8D0;
+}
+
+.active {
+    background-color: #81D8D0;
+}
+
+.wrap {
+    background-color: #fbfbfb;
+}
+
+.clearfix:after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.right {
+float: right;
+width: 150px;
+background: #fbfbfb;
+height: 200px;
+}
+
+
+.survey {
+    padding:22px;
+    margin: 22px;
+    background: white;
+    margin-left: 110px;
+    margin-right: 160px;
+   
+}
+
+.tou {
+     padding-left: 33px;
+    position: relative;
+    background-color:#f4fffe;
+    display: inline-block;
+}
+
+.pic{
+   float: left;
+   width: 499px;
+  
+}
+
+#footer {
+    background-color: white;
+    clear:both;
+    text-align:center;
+    padding:5px;
+    width:1050px;
+    margin:2 auto;
+    height:auto;
+    font-size: 18px;    
+}
+a.one:link {color:black;text-decoration: underline;}
+a:link {text-decoration:none;color:#000033}
+a:active {background-color:White; color:#81D8D0;} 
+a:hover{background-color:#81D8D0;}
+a:visited {text-decoration:none;color:#000033} 
+</style>
+
+<body>
+
+<script type="text/javascript"> 
+function scrollx(p) { 
+ var d = document, dd = d.documentElement, db = d.body, w = window, o = d.getElementById(p.id), ie6 = /msie 6/i.test(navigator.userAgent), style, timer; 
+ if (o) { 
+  cssPub = ";position:"+(p.f&&!ie6?'fixed':'absolute')+";"+(p.t!=undefined?'top:'+p.t+'px;':'bottom:0;'); 
+  if (p.r != undefined && p.l == undefined) { 
+   o.style.cssText += cssPub + ('right:'+p.r+'px;'); 
+  } else { 
+   o.style.cssText += cssPub + ('margin-left:'+p.l+'px;'); 
+  } 
+  if(p.f&&ie6){ 
+   cssTop = ';top:expression(documentElement.scrollTop +'+(p.t==undefined?dd.clientHeight-o.offsetHeight:p.t)+'+ "px" );'; 
+   cssRight = ';right:expression(documentElement.scrollright + '+(p.r==undefined?dd.clientWidth-o.offsetWidth:p.r)+' + "px")'; 
+   if (p.r != undefined && p.l == undefined) { 
+    o.style.cssText += cssRight + cssTop; 
+   } else { 
+    o.style.cssText += cssTop; 
+   } 
+   dd.style.cssText +=';background-image: url(about:blank);background-attachment:fixed;'; 
+  }else{ 
+   if(!p.f){ 
+    w.onresize = w.onscroll = function(){ 
+     clearInterval(timer); 
+     timer = setInterval(function(){ 
+      //双选择为了修复chrome 下xhtml解析时dd.scrollTop为 0 
+      var st = (dd.scrollTop||db.scrollTop),c; 
+      c = st - o.offsetTop + (p.t!=undefined?p.t:(w.innerHeight||dd.clientHeight)-o.offsetHeight); 
+      if(c!=0){ 
+       o.style.top = o.offsetTop + Math.ceil(Math.abs(c)/10)*(c<0?-1:1) + 'px'; 
+      }else{ 
+       clearInterval(timer); 
+      } 
+     },10) 
+    } 
+   } 
+  } 
+ } 
+} 
+</script> 
+<div id="float_left">
+
+<div class="xuanfu">
+联系我们:<br><img src="http://edu.uhubor.com/wp-content/uploads/2018/07/二维码.png" alt="" width="90" height="90" class="alignnone size-full wp-image-873" />
+<a class="one" href="http://edu.uhubor.com/zh-hans/studentinfo/" title = "专家规划"; target="_blank">
+<p style="color: black">定制咨询</p></a>
+</div>
+
+</div> 
+
+<script type="text/javascript"> 
+//左右侧固定浮动的div建议放在html的最
+//左侧固定 
+scrollx({id:'float_left', t:200, f:1}); 
+
+</script> 
+<ul>
+  <li><img src="http://edu.uhubor.com/wp-content/uploads/2018/03/uhubor-education-logo-01-1-e1520291984853.png"></li>
+  <li>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</li>
+  <li>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</li>
+  <li><a href="#test">（1）性格测试 </a ></li>
+  <li><a class="active" href="#major" style="color: white">（2）合适方向</a ></li>
+  <li><a href="#about">（3）推荐大学</a ></li>
+  <li><a href="#professor">（4）专家建议</a ></li>
+</ul>
+
+<br>
+<br>
+
+<div class="wrap clearfix">
+<div class="right"> </div>
+<div class="survey">
+<!--这是一个注释，注释在浏览器中不会显示-->
+
+
+<h1 style="text-align: center;"><font size="6" font face=黑体>INFP 性格特点</font></h1>
+
+<div  class="tou">
+<hr>
+<div class="pic">
+<p>
+1安静观察者，具理想性与对其价值观及重要之人具忠诚心。<br><br>
+2.希外在生活形态与内在价值观相吻合。<br><br>
+3.具好奇心且很快能看出机会所在。常担负开发创意的触媒者。<br><br>
+4.除非价值观受侵犯，行事会具弹性、适应力高且承受力强。<br><br>
+5.具想了解及发展他人潜能的企图。想作太多且作事全神贯注。<br><br>
+6.对所处境遇及拥有不太在意。<br><br>
+7.具适应力、有弹性除非价值观受到威胁。<br><br></p >
+</div>
+
+<div class="pic">
+<img src="http://edu.uhubor.com/wp-content/uploads/2018/07/INFP.png"/>
+</div>
+
+<div style="clear:both"></div>
+<div>
+<h1>详细分析</h1>
+
+<p>
+   INFP把内在的和谐视为高于其他一切。他们敏感、理想化、忠诚，对于个人价值具有一种强烈的荣誉感。他们个人信仰坚定，有为自认为有价值的事业献身的精神。 INFP型的人对于已知事物之外的可能性很感兴趣，精力集中于他们的梦想和想象。他们思维开阔、有好奇心和洞察力，常常具有出色的长远眼光。在日常事务中，他们通常灵活多变、具有忍耐力和适应性，但是他们非常坚定地对待内心的忠诚，为自己设定了事实上几乎是不可能的标准。 INFP型的人具有许多使他们忙碌的理想和忠诚。他们十分坚定地完成自己所选择的事情，他们往往承担得太多，但不管怎样总要完成每件事。 虽然对外部世界他们显得冷淡缄默，但INFP型的人很关心内在。他们富有同情心、理解力，对于别人的情感很敏感。除了他们的价值观受到威胁外，他们总是避免冲突，没有兴趣强迫或支配别人。INFP型的人常常喜欢通过书写而不是口头来表达自己的感情。当INFP型的人劝说别人相信他们的想法的重要性时，可能是最有说服力的。 INFP很少显露强烈的感情，常常显得沉默而冷静。然而，一旦他们与你认识了，就会变得热情友好，但往往会避免浮浅的交往。他们珍视那些花费时间去思考目标与价值的人。 <BR>
+
+</div>
+</div> 
+
+<br><br><hr><br>
+
+
+<div>
+<h1>·适合领域</h1>
+创作性、<br>
+艺术类<br> 
+教育、<br>
+研究、<br>
+咨询类<br><br>
+<br><br>
+
+<h1>·适合职业</h1>
+各类艺术家、插图画家、诗人、小说家、<br>
+建筑师、设计师、<br>
+文学编辑、艺术指导、记者等 <br>
+大学老师（人文类）、<br>
+心理学工作者、心理辅导和咨询人员、<br>
+社科类研究人员、社会工作者、教育顾问、<br>
+图书管理者、翻译家等<br>
+<br><br><br>
+</div>
+
+<div style="text-align: center;">
+<p1 style="font-style:oblique; color:grey; font-size:16px">
+也许你会觉得上面的工作种类繁杂，但仔细分析你就会发现，这些工作各自的特色正是你对工作的要求，我们会在下面列出各类工作的特质。当然，这不可能是一个完美的适合你的工作的综合，但是，却能够向你展示你以前不曾考虑过的工作的可能性。在列出这些工作的同时，我们也要敬告您：每种职业中都有各种性格类型的成功人士；即使是相同的工作，不同公司的要求也不尽相同，所以除了工作名称外，你还要对贵公司要求的工作内容和公司文化作详细的了解。我们希望在经济快速发展、新型工作不断涌现将来，这份报告上列举的工作种类不是限制了你的选择，而是告诉你，面对新工作的选择或机会时，应该从哪些因素来分析这些工作对你的适合程度。
+</p1><br><br><hr>
+</div>
+
+<div align="center">
+<div  class="dropdown" align="center">
+  <h1>
+  <font size="5" face= 仿宋 color="black">根据上述的性格测试，我最终选择</font><br><br>
+  <button class="dropbtn">推荐专业</button></h1>
+  <div  class="dropdown-content" align="center">
+    <a href="http://edu.uhubor.com/mbti/rank/edcation.html">教育 </a>
+    <a href="http://edu.uhubor.com/mbti/rank/psychology.html">心理</a>
+    <a href="http://edu.uhubor.com/mbti/rank/commerce.html">商学院</a>
+    <a href="http://edu.uhubor.com/mbti/rank/architecture.html">建筑</a>
+    <a href="http://edu.uhubor.com/mbti/rank/arts.html">艺术</a>
+    
+  </div>
+</div>
+</div>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+</div>
+
+</div>
+
+
+<div id="footer">
+    <br><br>
+<span style="color: grey;"><!--end copyrights-->
+    2018 © Copyright <a title="UHUBOR Education" href=" " rel="nofollow">UHUBOR Education</a >
+</span>
+<div> <a href="http://www.uhubor.com/about/?lang=zh-hans">关于我们</a> | <a href="http://uhubor.com/privacy-policy/">隐私协议</a> | 
+    <a href="http://uhubor.com/user-agreement/">用户协议</a></div>
+    <br><br>
+</div>
+</body>
+</html>

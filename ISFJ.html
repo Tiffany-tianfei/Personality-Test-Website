@@ -1,0 +1,335 @@
+<html>
+
+<head>
+<title>人格类型 ISFJ </title>
+</head>
+
+<style>
+h1 {font-family:Pacifico; font-size:29px;}
+h  {font-family:黑体; font-size:33px; color:black}
+body{background-color:#F5FBFB;}
+
+.xuanfu {
+    background-color: #d7ece7; /* tiffany blue */
+    border: none;
+    padding: 4px 7px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    border-radius: 12px;*/
+}
+.dropbtn {
+    background-color: #81D8D0;
+    color: white;
+    padding: 15px;
+    font-size: 25px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+
+}
+
+.dropdown-content {
+    display: none;
+    position: relative;
+    background-color: #f0f0f0;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    font-size: 21px;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #81D8D0; 
+    color: white;}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropup:hover .dropbtn {
+    background-color: #3e8e41;
+}
+
+
+body{background-color: #fbfbfb;}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+    font-family:黑体;
+    font-size:20px;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 25px 25px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #81D8D0;
+}
+
+.active {
+    background-color: #81D8D0;
+}
+
+.wrap {
+    background-color: #fbfbfb;
+}
+
+.clearfix:after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.right {
+float: right;
+width: 150px;
+background: #fbfbfb;
+height: 200px;
+}
+
+
+.survey {
+    padding:22px;
+    margin: 22px;
+    background: white;
+    margin-left: 110px;
+    margin-right: 160px;
+   
+}
+
+.tou {
+     padding-left: 33px;
+    position: relative;
+    background-color:#f4fffe;
+    display: inline-block;
+}
+
+.pic{
+   float: left;
+   width: 499px;
+  
+}
+
+#footer {
+    background-color: white;
+    clear:both;
+    text-align:center;
+    padding:5px;
+    width:1050px;
+    margin:2 auto;
+    height:auto;
+    font-size: 18px;    
+}
+a.one:link {color:black;text-decoration: underline;}
+a:link {text-decoration:none;color:#000033}
+a:active {background-color:White; color:#81D8D0;} 
+a:hover{background-color:#81D8D0;}
+a:visited {text-decoration:none;color:#000033} 
+</style>
+
+<body>
+<script type="text/javascript"> 
+function scrollx(p) { 
+ var d = document, dd = d.documentElement, db = d.body, w = window, o = d.getElementById(p.id), ie6 = /msie 6/i.test(navigator.userAgent), style, timer; 
+ if (o) { 
+  cssPub = ";position:"+(p.f&&!ie6?'fixed':'absolute')+";"+(p.t!=undefined?'top:'+p.t+'px;':'bottom:0;'); 
+  if (p.r != undefined && p.l == undefined) { 
+   o.style.cssText += cssPub + ('right:'+p.r+'px;'); 
+  } else { 
+   o.style.cssText += cssPub + ('margin-left:'+p.l+'px;'); 
+  } 
+  if(p.f&&ie6){ 
+   cssTop = ';top:expression(documentElement.scrollTop +'+(p.t==undefined?dd.clientHeight-o.offsetHeight:p.t)+'+ "px" );'; 
+   cssRight = ';right:expression(documentElement.scrollright + '+(p.r==undefined?dd.clientWidth-o.offsetWidth:p.r)+' + "px")'; 
+   if (p.r != undefined && p.l == undefined) { 
+    o.style.cssText += cssRight + cssTop; 
+   } else { 
+    o.style.cssText += cssTop; 
+   } 
+   dd.style.cssText +=';background-image: url(about:blank);background-attachment:fixed;'; 
+  }else{ 
+   if(!p.f){ 
+    w.onresize = w.onscroll = function(){ 
+     clearInterval(timer); 
+     timer = setInterval(function(){ 
+      //双选择为了修复chrome 下xhtml解析时dd.scrollTop为 0 
+      var st = (dd.scrollTop||db.scrollTop),c; 
+      c = st - o.offsetTop + (p.t!=undefined?p.t:(w.innerHeight||dd.clientHeight)-o.offsetHeight); 
+      if(c!=0){ 
+       o.style.top = o.offsetTop + Math.ceil(Math.abs(c)/10)*(c<0?-1:1) + 'px'; 
+      }else{ 
+       clearInterval(timer); 
+      } 
+     },10) 
+    } 
+   } 
+  } 
+ } 
+} 
+</script> 
+<div id="float_left">
+
+<div class="xuanfu">
+联系我们:<br><img src="http://edu.uhubor.com/wp-content/uploads/2018/07/二维码.png" alt="" width="90" height="90" class="alignnone size-full wp-image-873" />
+<a class="one" href="http://edu.uhubor.com/zh-hans/studentinfo/" title = "专家规划"; target="_blank">
+<p style="color: black">定制咨询</p></a>
+</div>
+
+</div> 
+
+<script type="text/javascript"> 
+//左右侧固定浮动的div建议放在html的最
+//左侧固定 
+scrollx({id:'float_left', t:200, f:1}); 
+
+</script> 
+
+<ul>
+  <li><img src="http://edu.uhubor.com/wp-content/uploads/2018/03/uhubor-education-logo-01-1-e1520291984853.png"></li>
+  <li>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</li>
+  <li>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</li>
+  <li><a href="#test">（1）性格测试 </a ></li>
+  <li><a class="active" href="#major" style="color: white">（2）合适方向</a ></li>
+  <li><a href="#about">（3）推荐大学</a ></li>
+  <li><a href="#professor">（4）专家建议</a ></li>
+</ul>
+
+<br>
+<br>
+
+<div class="wrap clearfix">
+<div class="right"> </div>
+<div class="survey">
+<!--这是一个注释，注释在浏览器中不会显示-->
+
+
+<h1 style="text-align: center;"><font size="6" font face=黑体>ISFJ 性格特点</font></h1>
+
+<div  class="tou">
+<hr>
+
+<div class="pic">
+
+<p>
+1.安静、和善、负责任且有良心。<br><br>
+2.行事尽责投入。<br><br>
+3.安定性高，常居项目工作或团体之安定力量。<br><br>
+4.愿投入、吃苦及力求精确。<br><br>
+5.兴趣通常不在于科技方面。对细节事务有耐心。<br><br>
+6.忠诚、考虑周到、知性且会关切他人感受。<br><br>
+7.致力于创构有序及和谐的工作与家庭环境。<br><br>
+</p >
+</div>
+
+<div class="pic">
+<img src="http://edu.uhubor.com/wp-content/uploads/2018/07/ISFJ.png"/>
+</div>
+
+<div style="clear:both"></div>
+<div>
+<h1>详细分析</h1>
+
+<p>
+   ISFJ型的人忠诚、有奉献精神和同情心，理解别人的感受。他们意志清醒而有责任心，乐于为人所需。 ISFJ型的人十分务实，他们喜欢平和谦逊的人。他们喜欢利用大量的事实情况，对于细节则有很强的记力。他们耐心地对待任务的整个阶段，喜欢事情能够清晰明确。 ISFJ型的人具有强烈的职业道德，所以他们如果知道自己的行为真正有用时，会对需要完成之事承担责任。他们准确系统地完成任务。他们具有传统的价值观，十分保守。他们利用符合实际的判断标准做决定，通过出色的注重实际的态度增加了稳定性。 ISFJ型的人平和谦虚、勤奋严肃。他们温和、圆通，支持朋友和同伴。他们乐于协助别人，喜欢实际可行地帮助他人。他们利用个人热情与人交往，在困难中与他人和睦相处。ISFJ型的人不喜欢表达个人情感，但实际上对于大多数的情况和事件都具有强烈的个人反应。他们关心、保护朋友，愿意为朋友献身，他们有为他人服务的意识，愿意完成他们的责任和义务。
+</p >
+
+</div>
+</div> 
+
+<br><br><hr><br>
+
+
+<div>
+<h1>·适合领域</h1>
+无明显领域特征<BR>
+医护领域 <BR>
+消费类商业<BR>
+服务业领域<BR>
+<br><br>
+
+<h1>·适合职业</h1>
+· 工程师<br>
+· 室内装潢设计师<br>
+· 设计师<br>
+· 护士<br>
+· 主管及经理<br>
+· 行政助理<br>
+· 幼师/早教师<br>
+· 社工/咨询师<br>
+· 律师助理<br>
+· 神职人员/宗教工作者<br>
+· 办公室经理<br>
+· 零售商人<br>
+· 档案管理员<br>
+· 家政人员<br>
+<br><br><br>
+</div>
+
+<div style="text-align: center;">
+<p1 style="font-style:oblique; color:grey; font-size:16px">
+也许你会觉得上面的工作种类繁杂，但仔细分析你就会发现，这些工作各自的特色正是你对工作的要求，我们会在下面列出各类工作的特质。当然，这不可能是一个完美的适合你的工作的综合，但是，却能够向你展示你以前不曾考虑过的工作的可能性。在列出这些工作的同时，我们也要敬告您：每种职业中都有各种性格类型的成功人士；即使是相同的工作，不同公司的要求也不尽相同，所以除了工作名称外，你还要对贵公司要求的工作内容和公司文化作详细的了解。我们希望在经济快速发展、新型工作不断涌现将来，这份报告上列举的工作种类不是限制了你的选择，而是告诉你，面对新工作的选择或机会时，应该从哪些因素来分析这些工作对你的适合程度。
+</p1><br><br><hr>
+</div>
+
+<div align="center">
+<div  class="dropdown" align="center">
+  <h1>
+  <font size="5" face= 仿宋 color="black">根据上述的性格测试，我最终选择</font><br><br>
+  <button class="dropbtn">推荐专业</button></h1>
+  <div  class="dropdown-content" align="center">
+    <a href="http://edu.uhubor.com/mbti/rank/education.html">教育 </a>
+    <a href="http://edu.uhubor.com/mbti/rank/law.html">法律</a>
+    <a href="http://edu.uhubor.com/mbti/rank/medicine.html">医学院</a>
+    <a href="http://edu.uhubor.com/mbti/rank/architecture.html">建筑</a>
+    <a href="http://edu.uhubor.com/mbti/rank/arts.html">艺术</a>
+    <a href="http://edu.uhubor.com/mbti/rank/engineer.html">工程</a>
+  </div>
+</div>
+</div>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+</div>
+
+</div>
+
+
+<div id="footer">
+    <br><br>
+<span style="color: grey;"><!--end copyrights-->
+    2018 © Copyright <a title="UHUBOR Education" href=" " rel="nofollow">UHUBOR Education</a >
+</span>
+<div> <a href="http://www.uhubor.com/about/?lang=zh-hans">关于我们</a> | <a href="http://uhubor.com/privacy-policy/">隐私协议</a> | 
+    <a href="http://uhubor.com/user-agreement/">用户协议</a></div>
+    <br><br>
+</div>
+</body>
+</html>
